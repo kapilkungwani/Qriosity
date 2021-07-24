@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Qriosity</title>
+</head>
+
+<body>
+  <div class="head-container w3-animate-opacity">
+    <div class="header-container">
+      <img class="header-logo" src="./assets/Logo.svg" />
+      <p class="header-text">Qriosity</p>
+    </div>
+    <div class="details">
+      Enter your Name
+      <input type="text" name="name" id="name" placeholder="Kapil Kungwani">
+    </div>
+    <div class="button-cla">
+      <button type="button" class="nextbtn">Lets Get Qrious!</button>
+    </div>
+  </div>
+
+  <div class="rules-container hide">
+    <div class="rule-boxcontainer">
+      <div class="rule-box">
+        <div class="rule-title">
+          <p>Instructions</p>
+        </div>
+        <div class="instructions">
+          <ul>
+            <li>
+              There will be a Total of <b>10 Question</b> related to the
+              <b>Option you Choose</b> Default choice is JavaScript.
+            </li>
+            <li>
+              Your Total Points will be displayed at the end of the Quiz only.
+            </li>
+            <li>
+              Once attempted question will not be available for a Reattempt.
+            </li>
+            <li>All the Questions will be having <b>Multiple Choice.</b></li>
+            <li><b>Points will not be deducted</b> for Wrong answer.</li>
+            <li>
+              Once the page is refreshed all your
+              <b>Progress will be lost.</b>
+            </li>
+            <li>There is <b>Time Limit </b>of 15 seconds so be quick.</li>
+            <li>
+              <b>Un-Attempted Question</b> will be awarded <b>0 points.</b>
+            </li>
+            <li>
+              Once you have selected the <b>Category</b> you can start the quiz by clicking the<b>
+                Start Button.</b>
+            </li>
+          </ul>
+        </div>
+
+        <div class="category">
+          <div class="category-title">Select your Category</div>
+          <div class="categories">
+            <button class="category-btn cjs" value="JavaScript" type="button">
+              JavaScript
+            </button>
+            <button class="category-btn chtml" value="html" type="button">
+              HTML
+            </button>
+            <button class="category-btn clinux" value="Linux" type="button">
+              Linux
+            </button>
+          </div>
+        </div>
+
+        <div class="start-btn">
+          <button type="button" class="startbtn">Start</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="questions-container hide"></div>
+
+  <div class="points-container hide">
+    <div class="points-box">
+      <div class="logo">
+        <img src="./assets/Winner.svg" alt="" class="winner-logo" />
+        <div class="point-text"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
