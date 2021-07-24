@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #d4dcff;
+}
+
+button {
+  outline: none;
+}
+
+.head-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 90vh;
+}
+
+.hide {
+  transition: ease-out 20s;
+  display: none;
+}
+
+.button-cla {
+  margin-top: 0.2rem;
+}
+.header-text {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.header-logo {
+  height: 18rem;
+  width: 90vw;
+  margin: 1rem;
+}
+
+.nextbtn {
+  background-color: #403f4c;
+  color: #5fbb97;
+  padding: 13px;
+  font-weight: bold;
+  width: 15rem;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+/* ------------Rules CSS------------- */
+
+.rule-box {
+  background-color: #403f4c;
+  color: #5fbb97;
+  margin: 1rem;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.rule-title {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.instructions {
+  margin: 1rem;
+  border-bottom: 1px solid #5fbb97;
+}
+
+li {
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.details {
+  margin: auto;
+  padding: 5px 5px 0px 5px;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+  color: #5fbb97;
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  margin: 25px 0px;
+  font-size: 18px;
+  color: #403f4c;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  outline: none;
+  text-align: center;
+}
+
+.startbtn {
+  background-color: #5fbb97;
+  color: #403f4c;
+  padding: 10px;
+  width: 15rem;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+}
+
+.category-btn {
+  background-color: #5fbb97;
+  color: #403f4c;
+  width: 6.5rem;
+  height: 3rem;
+  text-align: center;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0.1rem;
+  justify-content: center;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #5fbb97;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* --------------- Questions --------------- */
+.timer {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #403f4c;
+  background-color: #5fbb97;
+  height: 3.5rem;
+  width: 3.5rem;
+  padding-top: 0.3rem;
+  padding-right: 0.1rem;
+  text-align: center;
+  justify-content: center;
+  border-radius: 500%;
+}
+
+.question-box {
+  display: flex;
+  margin-top: 14vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions {
+  background-color: #403f4c;
+  color: #5fbb97;
+  border: 0;
+  min-height: 40vh;
+  border-radius: 20px;
+  margin: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.main-question {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.option-1,
+.option-2,
+.option-3,
+.option-4 {
+  text-align: center;
+  width: 20rem;
+  border: 0;
+  font-size: 0.9rem;
+  background-color: #5fbb97;
+  color: #403f4c;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.next-question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.nextq-btn {
+  background-color: #403f4c;
+  color: #5fbb97;
+  padding: 13px;
+  width: 15rem;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1.15rem;
+}
+
+.choosen {
+  background-color: #1b2432;
+  color: #5fbb97;
+}
+
+.points-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.winner-logo {
+  max-height: 22rem;
+  width: 90vw;
+  margin: 1rem;
+}
+
+.point-text {
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+/* ------- Everything Else ---------- */
+.developer {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.source-code {
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
